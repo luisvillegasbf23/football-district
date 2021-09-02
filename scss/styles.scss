@@ -1,0 +1,19 @@
+// FRAMEWORK //
+@import "custom";  
+
+@import "typography";
+@import "color";
+@import "mixin";
+
+@import "welcome";
+
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
