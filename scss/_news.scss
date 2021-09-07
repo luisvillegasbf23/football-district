@@ -1,0 +1,17 @@
+// #1
+.news-one {
+    background: $layer, url(../img/news/messi-news.jpg);
+    @include news;
+}
+
+// #2
+.news-two {
+    background: $layer, url(../img/news/cr7-news.jpg);
+    @include news;
+}
+
+// #3
+.news-three {
+    background: $layer, url(../img/news/rondon-news.jpg);
+    @include news;
+}

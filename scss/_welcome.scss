@@ -3,10 +3,7 @@
     background-size: cover;
     height: 80vh;
     width: 100%;
-    // ==Alinear== //
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include center-align ;
 
     .fondo-text {
         text-align: center;

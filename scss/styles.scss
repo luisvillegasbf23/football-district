@@ -5,7 +5,11 @@
 @import "color";
 @import "mixin";
 
+@import "navbar";
 @import "welcome";
+@import "news";
+@import "enviar";
+@import "footer";
 
 
 
@@ -16,4 +20,20 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+}
+
+body {
+    font-family: $my-font;
+
+    a {
+        color: $secundary;
+        text-decoration: none;
+        list-style: none;
+
+        &:hover {
+        color: $secundary;
+        text-decoration: none;
+        list-style: none;
+        }
+    }
 }
