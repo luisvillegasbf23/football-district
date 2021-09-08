@@ -1,0 +1,73 @@
+.who-are-img {
+    background: $layer, url(../img/competiciones/champions.jpg);
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+    height: 70vh; 
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 783px) {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        
+    }
+}
+
+.who-are {
+    background: $secundary;
+    height: 70vh;
+    width: 100%;
+   
+    @include center-align;
+    
+        .who-are-text {
+            text-align: center;
+            width: 100%;
+            color:$primary;
+            padding: 0 0.5em 0 0.5em;
+
+            p {
+               margin-top: 1em;
+            }
+
+            h1 {
+                margin-top: 1em;
+            }
+        }
+
+}
+
+.who-are-img-two {
+    background: $layer, url(../img/competiciones/europa.jfif);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 70vh; 
+    width: 100%;
+    background-size: cover;
+    display: none;
+    align-items: center;
+
+    @media (max-width: 800px) {
+        display: flex;
+        
+    }
+
+}
+
+.who-are-img-ghost {
+    background: $layer, url(../img/competiciones/europa.jfif);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 70vh; 
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 800px) {
+        display: none;
+        
+    }
+}

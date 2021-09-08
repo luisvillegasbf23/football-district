@@ -7578,6 +7578,50 @@ nav {
       display: block;
       margin-right: 1em; } }
 
+footer {
+  display: grid;
+  width: 100%;
+  height: 35vh;
+  background-color: black;
+  display: flex;
+  align-items: center; }
+  footer .social {
+    text-align: center; }
+    footer .social a {
+      font-size: 2em;
+      padding-right: 0.5em; }
+    @media (max-width: 800px) {
+      footer .social {
+        margin-top: 1em; } }
+  footer .copy {
+    color: white;
+    text-align: center;
+    margin-top: 4em; }
+    footer .copy p {
+      font-size: 0.75em; }
+    @media (max-width: 800px) {
+      footer .copy {
+        display: none; } }
+  footer .info {
+    text-align: start;
+    color: white; }
+    footer .info p {
+      font-size: 0.75em; }
+    @media (max-width: 800px) {
+      footer .info {
+        margin-top: 1em;
+        text-align: center; } }
+  footer .copy2 {
+    display: none;
+    color: white;
+    text-align: center;
+    margin-top: 1em; }
+    footer .copy2 p {
+      font-size: 0.75em; }
+    @media (max-width: 800px) {
+      footer .copy2 {
+        display: block; } }
+
 .fondo {
   background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/hero-slide/fondo.png);
   background-size: cover;
@@ -7590,7 +7634,7 @@ nav {
     text-align: center;
     color: white;
     padding: 0 1em 0 1em; }
-    @media (min-width: 800px) {
+    @media (min-width: 783px) {
       .fondo .fondo-text {
         padding: 0 0 0 0; } }
 
@@ -7730,49 +7774,294 @@ nav {
   .enviar-form .seleccionar {
     color: white; }
 
-footer {
-  display: grid;
+.who-are-img {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/competiciones/champions.jpg);
+  margin-top: 4em;
+  margin-bottom: 0.5em;
+  height: 70vh;
   width: 100%;
-  height: 35vh;
-  background-color: black;
+  background-size: cover;
   display: flex;
   align-items: center; }
-  footer .social {
-    text-align: center; }
-    footer .social a {
-      font-size: 2em;
-      padding-right: 0.5em; }
-    @media (max-width: 800px) {
-      footer .social {
-        margin-top: 1em; } }
-  footer .copy {
-    color: white;
+  @media (max-width: 783px) {
+    .who-are-img {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em; } }
+
+.who-are {
+  background: white;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .who-are .who-are-text {
     text-align: center;
-    margin-top: 4em; }
-    footer .copy p {
-      font-size: 0.75em; }
-    @media (max-width: 800px) {
-      footer .copy {
-        display: none; } }
-  footer .info {
-    text-align: start;
-    color: white; }
-    footer .info p {
-      font-size: 0.75em; }
-    @media (max-width: 800px) {
-      footer .info {
-        margin-top: 1em;
-        text-align: center; } }
-  footer .copy2 {
+    width: 100%;
+    color: black;
+    padding: 0 0.5em 0 0.5em; }
+    .who-are .who-are-text p {
+      margin-top: 1em; }
+    .who-are .who-are-text h1, .who-are .who-are-text .h1 {
+      margin-top: 1em; }
+
+.who-are-img-two {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/competiciones/europa.jfif);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  display: none;
+  align-items: center; }
+  @media (max-width: 800px) {
+    .who-are-img-two {
+      display: flex; } }
+
+.who-are-img-ghost {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/competiciones/europa.jfif);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  @media (max-width: 800px) {
+    .who-are-img-ghost {
+      display: none; } }
+
+#ligas {
+  margin: 0 0em 1em 0em;
+  padding-top: 3em; }
+
+.bundesliga {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/ligas/reus.jpg);
+  margin-top: 1em;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .bundesliga:hover h1, .bundesliga:hover .h1 {
+    display: none; }
+  .bundesliga:hover .news-info {
+    display: flex; }
+  .bundesliga h1, .bundesliga .h1 {
+    position: absolute;
+    color: white;
+    padding-left: 1em; }
+  .bundesliga .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
     display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+.la-liga {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/ligas/liga.jpg);
+  margin-top: 1em;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .la-liga:hover h1, .la-liga:hover .h1 {
+    display: none; }
+  .la-liga:hover .news-info {
+    display: flex; }
+  .la-liga h1, .la-liga .h1 {
+    position: absolute;
     color: white;
-    text-align: center;
-    margin-top: 1em; }
-    footer .copy2 p {
-      font-size: 0.75em; }
-    @media (max-width: 800px) {
-      footer .copy2 {
-        display: block; } }
+    padding-left: 1em; }
+  .la-liga .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+.premier-league {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/ligas/premier-league.jpg);
+  margin-top: 1em;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .premier-league:hover h1, .premier-league:hover .h1 {
+    display: none; }
+  .premier-league:hover .news-info {
+    display: flex; }
+  .premier-league h1, .premier-league .h1 {
+    position: absolute;
+    color: white;
+    padding-left: 1em; }
+  .premier-league .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+.serie-a {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/ligas/serie-a.jpg);
+  margin-top: 1em;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .serie-a:hover h1, .serie-a:hover .h1 {
+    display: none; }
+  .serie-a:hover .news-info {
+    display: flex; }
+  .serie-a h1, .serie-a .h1 {
+    position: absolute;
+    color: white;
+    padding-left: 1em; }
+  .serie-a .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+#ligas {
+  margin: 0 0em 1em 0em;
+  padding-top: 3em; }
+
+.champions {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/competiciones/champions.jpg);
+  margin-top: 1em;
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .champions:hover h1, .champions:hover .h1 {
+    display: none; }
+  .champions:hover .news-info {
+    display: flex; }
+  .champions h1, .champions .h1 {
+    position: absolute;
+    color: white;
+    padding-left: 1em; }
+  .champions .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+.uefa {
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.6)), url(../img/competiciones/europa.jfif);
+  margin-top: 1em;
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .uefa:hover h1, .uefa:hover .h1 {
+    display: none; }
+  .uefa:hover .news-info {
+    display: flex; }
+  .uefa h1, .uefa .h1 {
+    position: absolute;
+    color: white;
+    padding-left: 1em; }
+  .uefa .news-info {
+    position: relative;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5em; }
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 80vh; }
+  .contacto .contacto__texto {
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    font-size: 2em; }
+  .contacto .contacto__form {
+    grid-row: 4 / 6;
+    grid-column: 3 / 9; }
+    .contacto .contacto__form .contacto__name {
+      background-color: #fff;
+      color: black;
+      border: 2px solid;
+      width: 100%;
+      height: 50px;
+      padding-left: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif; }
+    .contacto .contacto__form .contacto__email {
+      background-color: #fff;
+      color: black;
+      border: 2px solid;
+      width: 100%;
+      height: 50px;
+      padding-left: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif; }
+    .contacto .contacto__form .contacto__textarea {
+      background-color: #fff;
+      color: black;
+      border: 2px solid;
+      width: 100%;
+      height: 100px;
+      padding-left: 5px;
+      border-radius: 2px;
+      font-size: 1em;
+      font-family: 'Poppins', sans-serif; }
+    .contacto .contacto__form .enviar__boton {
+      background-color: #fff;
+      color: black;
+      border: solid;
+      width: 150px;
+      height: 37.5px;
+      border-radius: 5px;
+      border-color: black;
+      font-family: 'Poppins', sans-serif; }
+      .contacto .contacto__form .enviar__boton:hover {
+        background-color: black;
+        color: #fff;
+        transition: 0.3s; }
 
 * {
   margin: 0%;

@@ -1,15 +1,32 @@
 // FRAMEWORK //
 @import "custom";  
 
+// GENERAL //
 @import "typography";
 @import "color";
 @import "mixin";
 
+// NAV & FOOTER //
 @import "navbar";
+@import "footer";
+
+// INDEX //
 @import "welcome";
 @import "news";
 @import "enviar";
-@import "footer";
+
+// COMUNIDAD //
+@import "comunidad";
+
+// LIGAS //
+@import "ligas";
+
+// COMPETICIONES // 
+@import "competiciones";
+
+// CONTACTO // 
+@import "contacto";
+
 
 
 
