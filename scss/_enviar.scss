@@ -1,48 +1,47 @@
 .enviar {
-    background: $secundary;
-    height: 70vh;
-    width: 100%;
-    margin: 1em 0 0 0;
-    @include center-align;
-    border: solid $primary 2px ;
-    border-right: none;
-    border-left: none;
-    
-        .enviar-text {
-            text-align: center;
-            width: 100%;
-            color:$primary;
-            padding: 0 0.5em 0 0.5em;
-        }
+	background: $secundary;
+	height: 70vh;
+	width: 100%;
+	margin: 1em 0 0 0;
+	@include center-align;
+	border: solid $primary 2px;
+	border-right: none;
+	border-left: none;
 
+	.enviar-text {
+		text-align: center;
+		width: 100%;
+		color: $primary;
+		padding: 0 0.5em 0 0.5em;
+	}
 }
 
 .enviar-form {
-    background: $primary;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-    width: 100%;
-    margin: 1em 0 1em 0;
-    padding-left: 1em;
+	background: $primary;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	height: 70vh;
+	width: 100%;
+	margin: 1em 0 1em 0;
+	padding-left: 1em;
 
-    .barra {
-        width: 80%;
-    }
-    
-    p {
-        color: $secundary;
-        margin-top: 0.5em;
-    }
+	.barra {
+		width: 80%;
+	}
 
-    .enviar-boton { 
-        margin-top: 0.75em;
-        @include bt-black ;
-        }
-    
-    .seleccionar {
-        color: $secundary;
-    }
+	p {
+		color: $secundary;
+		margin-top: 0.5em;
+	}
+
+	.enviar-boton {
+		margin-top: 0.75em;
+		@include bt-black;
+	}
+
+	.seleccionar {
+		color: $secundary;
+	}
 }

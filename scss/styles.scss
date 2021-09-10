@@ -1,5 +1,5 @@
 // FRAMEWORK //
-@import "custom";  
+@import "custom";
 
 // GENERAL //
 @import "typography";
@@ -21,36 +21,32 @@
 // LIGAS //
 @import "ligas";
 
-// COMPETICIONES // 
+// COMPETICIONES //
 @import "competiciones";
 
-// CONTACTO // 
+// CONTACTO //
 @import "contacto";
 
-
-
-
-
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 
 body {
-    font-family: $my-font;
+	font-family: $my-font;
 
-    a {
-        color: $secundary;
-        text-decoration: none;
-        list-style: none;
+	a {
+		color: $secundary;
+		text-decoration: none;
+		list-style: none;
 
-        &:hover {
-        color: $secundary;
-        text-decoration: none;
-        list-style: none;
-        }
-    }
+		&:hover {
+			color: $secundary;
+			text-decoration: none;
+			list-style: none;
+		}
+	}
 }

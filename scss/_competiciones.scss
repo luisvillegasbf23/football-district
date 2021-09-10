@@ -1,15 +1,15 @@
 #ligas {
-    margin: 0 0em 1em 0em;
-    padding-top: 3em;
+	margin: 0 0em 1em 0em;
+	padding-top: 3em;
 }
 // #1
 .champions {
-    background: $layer, url(../img/competiciones/champions.jpg);
-    @include competiciones;
+	background: $layer, url(../img/competiciones/champions.jpg);
+	@include competiciones;
 }
 
 // #2
 .uefa {
-    background: $layer, url(../img/competiciones/europa.jfif);
-    @include competiciones;
+	background: $layer, url(../img/competiciones/europa.jfif);
+	@include competiciones;
 }

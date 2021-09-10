@@ -1,29 +1,29 @@
-$my-font: 'Poppins', sans-serif;
+$my-font: "Poppins", sans-serif;
 
 body,
 p,
 span,
 a {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 h1 {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 button {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 @media (min-width: 800px) {
-  body,
-  p,
-  span,
-  a {
-    font-size: 1.2rem;
-  }
-  h1 {
-    font-size: 3.5rem;
-  }
-  button {
-    font-size: 1.7rem;
-  }
+	body,
+	p,
+	span,
+	a {
+		font-size: 1.2rem;
+	}
+	h1 {
+		font-size: 3.5rem;
+	}
+	button {
+		font-size: 1.7rem;
+	}
 }

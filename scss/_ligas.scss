@@ -1,27 +1,27 @@
 #ligas {
-    margin: 0 0em 1em 0em;
-    padding-top: 3em;
+	margin: 0 0em 1em 0em;
+	padding-top: 3em;
 }
 // #1
 .bundesliga {
-    background: $layer, url(../img/ligas/reus.jpg);
-    @include ligas ;
+	background: $layer, url(../img/ligas/reus.jpg);
+	@include ligas;
 }
 
 // #2
 .la-liga {
-    background: $layer, url(../img/ligas/liga.jpg);
-    @include ligas ;
+	background: $layer, url(../img/ligas/liga.jpg);
+	@include ligas;
 }
 
 // #3
 .premier-league {
-    background: $layer, url(../img/ligas/premier-league.jpg);
-    @include ligas ;
+	background: $layer, url(../img/ligas/premier-league.jpg);
+	@include ligas;
 }
 
 // #4
 .serie-a {
-    background: $layer, url(../img/ligas/serie-a.jpg);
-    @include ligas ;
+	background: $layer, url(../img/ligas/serie-a.jpg);
+	@include ligas;
 }

@@ -1,19 +1,31 @@
 {
   "name": "football-district-original",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "purge": "purgecss --css css/custom.css --content index.html --output css/redu.css"
+    "purge": "purgecss --css ./library/**/scss/**.scss --content *.html --output css/styles.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.0",
+    "bootstrap": "^5.0.0-beta3",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "devDependencies": {
+    "purgecss": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvillegasbf23/football-district.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/luisvillegasbf23/football-district/issues"
+  },
+  "homepage": "https://github.com/luisvillegasbf23/football-district#readme",
+  "description": ""
 }

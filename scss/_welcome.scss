@@ -1,18 +1,17 @@
 .fondo {
-    background: $layer, url(../img/hero-slide/fondo.png);
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    @include center-align ;
+	background: $layer, url(../img/hero-slide/fondo.png);
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	@include center-align;
 
-    .fondo-text {
-        text-align: center;
-        color:$secundary;
-        padding: 0 1em 0 1em;
+	.fondo-text {
+		text-align: center;
+		color: $secundary;
+		padding: 0 1em 0 1em;
 
-        @media (min-width: 783px) {
-            padding: 0 0 0 0;
-            
-        }
-    }
+		@media (min-width: 783px) {
+			padding: 0 0 0 0;
+		}
+	}
 }
