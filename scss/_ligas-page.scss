@@ -1,0 +1,40 @@
+.ligas-box {
+	margin: 4em -0.72em 0 -0.72em;
+	position: sticky;
+	top: 3em;
+	@media (max-width: 783px) {
+		margin: 3em -0.72em 0 -0.72em;
+	}
+	.ligas-act {
+		height: 2.5em;
+		width: 100%;
+		@include center-align;
+
+		a {
+			color: $primary;
+			p {
+				padding-top: 1em;
+				text-align: center;
+			}
+		}
+	}
+	.ligas-none {
+		height: 2.5em;
+		width: 100%;
+		background-color: $primary;
+		color: $secundary;
+		@include center-align;
+
+		a {
+			&:hover {
+				width: 100%;
+				background-color: $secundary;
+				color: $primary;
+			}
+		}
+		p {
+			padding-top: 0.5em;
+			text-align: center;
+		}
+	}
+}

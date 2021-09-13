@@ -8,10 +8,7 @@
 			name="description"
 			content=" Todo sobre el fútbol, noticias, transferencias, fotos y más"
 		/>
-		<meta
-			name="keywords"
-			content="fútbol,transferencias,fichajes,liga, fifa, uefa"
-		/>
+		<meta name="keywords" content="fútbol,transferencias,fichajes,liga, fifa, uefa" />
 		<!-- GOOGLE FONTS -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,12 +46,57 @@
 		<!-- MAIN -->
 		<main>
 			<!-- WELCOME -->
-			<div class="container-fluyd">
-				<div class="fondo">
-					<h1 class="fondo-text">
-						Todo sobre fútbol<br />
-						noticias, transferencias, fotos y más
-					</h1>
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container-fluyd">
+							<div class="fondo-one">
+								<h1 class="fondo-text">
+									Todo sobre fútbol<br />
+									noticias, transferencias, fotos y más
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container-fluyd">
+							<div class="fondo-two">
+								<h1 class="fondo-text">
+									Síguenos en todas nuestras redes sociales <br />
+									y mantente al tanto de todo
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container-fluyd">
+							<div class="fondo-three">
+								<h1 class="fondo-text">¡Bienvenido a la familia!</h1>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- NEWS -->
@@ -62,18 +104,13 @@
 				<div class="row">
 					<div class="col-12 col-xl-4">
 						<div class="news-one">
-							<h1>Messi Heroe</h1>
+							<h1>Messi Héroe</h1>
 							<div class="news-info">
 								<p>
-									Lionel Messi logró su primer título con la selección mayor de
-									Argentina, luego de 16 años de intentarlo.
+									Lionel Messi logró su primer título con la selección mayor de Argentina, luego de
+									16 años de intentarlo.
 									<br />
-									<a
-										href="https://www.telam.com.ar/notas/202107/560878-argentina-lionel-messi-quinta-final-brasil-2021-consagracion.html"
-										target="_blank"
-									>
-										leer más</a
-									>
+									<a href="pages/news-messi.html"> leer más</a>
 								</p>
 							</div>
 						</div>
@@ -84,15 +121,10 @@
 							<h1>CRGOL</h1>
 							<div class="news-info">
 								<p>
-									CR7 ha elevado su total de tantos internacionales con Portugal
-									a 109, igualando el récord mundial de Ali Daei.
+									CR7 ha elevado su total de tantos internacionales con Portugal a 109, igualando el
+									récord mundial de Ali Daei.
 									<br />
-									<a
-										href="https://www.tudn.com/futbol/uefa-mundial-eliminatorias/cristiano-ronaldo-supera-ali-daei-maximo-anotador-selecciones-110-goles"
-										target="_blank"
-									>
-										leer más</a
-									>
+									<a href="pages/news-cr7.html"> leer más</a>
 								</p>
 							</div>
 						</div>
@@ -103,15 +135,9 @@
 							<h1>Rondón Blue</h1>
 							<div class="news-info">
 								<p>
-									El delantero venezolano Salomón Rondón vulve a la premier
-									league al Everton FC.
+									El delantero venezolano Salomón Rondón vulve a la premier league al Everton FC.
 									<br />
-									<a
-										href="https://strikers.futbol/cracks/Salomon-Rondon-sorprendio-a-los-aficionados-de-Everton-con-una-curiosa-presentacion-20210904-0013.html"
-										target="_blank"
-									>
-										leer más</a
-									>
+									<a href="pages/news-rondon.html"> leer más</a>
 								</p>
 							</div>
 						</div>
@@ -126,9 +152,8 @@
 							<div class="enviar-text">
 								<h1>¡Nunca estamos satisfechos siempre queremos mas!</h1>
 								<p>
-									Ayuda a nuestra comunidad enviándonos tus vídeos, fotos e
-									historias de momentos épicos, graciosos o simplemente
-									increíbles.
+									Ayuda a nuestra comunidad enviándonos tus vídeos, fotos e historias de momentos
+									épicos, graciosos o simplemente increíbles.
 								</p>
 							</div>
 						</div>
@@ -137,31 +162,13 @@
 						<form>
 							<div class="enviar-form">
 								<p>Nombre</p>
-								<input
-									type="text"
-									name="nombre"
-									size="30"
-									value=""
-									class="barra"
-								/>
+								<input type="text" name="nombre" size="30" value="" class="barra" />
 								<p>Apellido</p>
-								<input
-									type="text"
-									name="apellido"
-									size="30"
-									value=""
-									class="barra"
-								/>
+								<input type="text" name="apellido" size="30" value="" class="barra" />
 								<p>Link de descarga</p>
-								<input
-									type="url"
-									id="homepage"
-									size="30"
-									name="homepage"
-									class="barra"
-								/>
+								<input type="url" id="homepage" size="30" name="homepage" class="barra" />
 								<p>Subir Contenido</p>
-								<input type="file" class="seleccionar" />
+								<input type="file" class="seleccionar" style="display: none" />
 								<input type="submit" value="Enviar" class="enviar-boton" />
 							</div>
 						</form>
@@ -176,9 +183,7 @@
 					<div class="col-12 col-xl-4">
 						<div class="social">
 							<a href="#"> <i class="fab fa-facebook"></i> </a>
-							<a
-								href="https://www.instagram.com/footballdistrict98/?hl=es-la"
-								target="_blank"
+							<a href="https://www.instagram.com/footballdistrict98/?hl=es-la" target="_blank"
 								><i class="fab fa-instagram"></i
 							></a>
 							<a href="https://twitter.com/footballd_98" target="_blank"
@@ -212,10 +217,7 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
-		<script
-			src="https://kit.fontawesome.com/fa8bfe5c3c.js"
-			crossorigin="anonymous"
-		></script>
+		<script src="https://kit.fontawesome.com/fa8bfe5c3c.js" crossorigin="anonymous"></script>
 		<script src="scripts/script.js"></script>
 	</body>
 	<!-- VILLEGAS #23 -->

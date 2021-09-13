@@ -7,7 +7,6 @@
 	.contacto__texto {
 		grid-column: 3 / 5;
 		grid-row: 3 / 4;
-		font-size: 2em;
 	}
 
 	.contacto__form {
@@ -53,4 +52,13 @@
 			@include bt-black;
 		}
 	}
+}
+
+.map {
+	@include center-align;
+	margin-bottom: 4em;
+}
+
+.map-text {
+	@include center-align;
 }

@@ -1,17 +1,14 @@
-.fondo {
+.fondo-one {
 	background: $layer, url(../img/hero-slide/fondo.png);
-	background-size: cover;
-	height: 80vh;
-	width: 100%;
-	@include center-align;
+	@include fondo;
+}
 
-	.fondo-text {
-		text-align: center;
-		color: $secundary;
-		padding: 0 1em 0 1em;
+.fondo-two {
+	background: $layer, url(../img/hero-slide/manchester.jpg);
+	@include fondo;
+}
 
-		@media (min-width: 783px) {
-			padding: 0 0 0 0;
-		}
-	}
+.fondo-three {
+	background: $layer, url(../img/hero-slide/madrid.jpg);
+	@include fondo;
 }

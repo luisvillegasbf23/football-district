@@ -141,3 +141,21 @@
 		padding: 1.5em;
 	}
 }
+
+// FONDO //
+@mixin fondo() {
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	@include center-align;
+
+	.fondo-text {
+		text-align: center;
+		color: $secundary;
+		padding: 0 1em 0 1em;
+
+		@media (min-width: 783px) {
+			padding: 0 0 0 0;
+		}
+	}
+}

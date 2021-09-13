@@ -1,0 +1,43 @@
+.noticia {
+	height: auto;
+	width: 100%;
+	padding: 4em 2em 0 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	img {
+		width: 70%;
+		height: 500px;
+		margin: 0 auto 1em auto;
+
+		@media (max-width: 783px) {
+			width: 90%;
+			height: 300px;
+		}
+	}
+
+	h1 {
+		margin: 0 auto 0.5em auto;
+		@media (max-width: 783px) {
+			padding-left: 0.5em;
+		}
+	}
+
+	p {
+		width: 70%;
+		margin: 1em auto 4em auto;
+		@media (max-width: 783px) {
+			width: 90%;
+		}
+	}
+
+	.twitter-tweet {
+		margin: 0 auto 0 auto;
+	}
+}
+
+#not {
+	@media (max-width: 783px) {
+		padding: 1em 2em 0 2em;
+	}
+}
